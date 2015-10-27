@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Hi, welcome to MyTube. Please Sign-in to access your SJSU-CMPE-277 playlist."
+        android:layout_margin="20sp"
+        android:textSize="35dp">
+
+    </TextView>
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/sign_in_button"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
